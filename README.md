@@ -12,6 +12,13 @@ Simulating flow from every cell re-explores the grid per cell. The inversion tha
 
 **Complexity:** O(R·C) time, O(R·C) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
